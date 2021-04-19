@@ -60,11 +60,94 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+
+}
+
+.aboutContainer {
+    border-bottom: dotted;
+    margin: 35px;
+}
+
+.flex-mainNav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    text-align: justify;
+    
+}
+.flex-navLambda {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-navContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+     
+}
+ nav {
+     padding: 10px 0px 0px 0px;
+ }
+#jumbo {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.flex-togther {
+    margin-bottom: 100px;
+}
+
+.flex-aboutPic {
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex-sectionOne {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: dotted;
+    margin: 25px;
+
+}
+
+.flex-sectionTwo {
+    text-align:left;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: dotted;
+    margin: 25px;
+}
+
+.together {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 p {
     line-height: 1.4;
 }
+
+img {
+    padding-bottom: 5px;
+   
+}
+
+button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 
 .container {
     width: 800px;
@@ -77,6 +160,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+
 }
 
 .top-content .text-container {
@@ -126,8 +210,59 @@ p {
     padding-right: 0;
 }
 
+#a {
+    padding: 40px;
+}
+
+#b {
+    padding: 40px;
+}
+
+#c {
+    padding: 40px;
+}
+
+#d {
+    padding: 40px;
+}
+
+#e {
+    padding: 40px;
+}
+#one {
+    background-color: teal;
+}
+
+#two {
+    background-color: gold;
+}
+#three {
+    background-color: cadetblue;
+}
+#four {
+    background-color: coral;
+}
+#five {
+    background-color: crimson;
+}
+#six {
+    background-color: forestgreen;
+}
+#seven {
+    background-color: darkorchid;
+}
+#eight {
+    background-color: hotpink;
+}
+#nine {
+    background-color: indigo;
+}
+#ten {
+    background-color: dodgerblue;
+}
 footer {
-    width: 100%;
+    margin: 60px
+;    width: 100%;
     background: black;
 }
 
